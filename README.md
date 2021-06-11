@@ -1,18 +1,6 @@
-# [PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization (CVPR 2020)](https://shunsukesaito.github.io/PIFuHD/)
+# Fast3dPrototype - быстрое прототипирование 3D-модели по одному 2D-изображению
 
-[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/pdf/2004.00452.pdf) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11z58bl3meSzo6kFqkahMa35G5jmh2Wgt?usp=sharing)
-
-News:
-* \[2020/06/15\] Demo with Google Colab (incl. visualization) is available! Please check out [#pifuhd on Twitter](https://twitter.com/search?q=%23pifuhd&src=recent_search_click&f=live) for many results tested by users!
-
-This repository contains a pytorch implementation of "Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization".
-
-![Teaser Image](https://shunsukesaito.github.io/PIFuHD/resources/images/pifuhd.gif)
-
-This codebase provides: 
-- test code
-- visualization code
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lafLFx9mabdPWKe8S4Jx_gJr8IFqW4Nh?usp=sharing)
 
 ## Demo on Google Colab
 In case you don't have an environment with GPUs to run PIFuHD, we offer Google Colab demo. You can also upload your own images and reconstruct 3D geometry together with visualization. Try our Colab demo using the following notebook: \
@@ -79,16 +67,6 @@ To render results with turn-table, run the following code. The rendered animatio
 ```
 python -m apps.render_turntable -f {path_of_objs} -ww {rendering_width} -hh {rendering_height} 
 # add -g for geometry rendering. default is normal visualization.
-```
-
-## Citation
-```
-@inproceedings{saito2020pifuhd,
-  title={PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization},
-  author={Saito, Shunsuke and Simon, Tomas and Saragih, Jason and Joo, Hanbyul},
-  booktitle={CVPR},
-  year={2020}
-}
 ```
 
 ## Relevant Projects
